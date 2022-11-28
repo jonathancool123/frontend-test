@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+
+      .background {
+        width: 100%;
+        height: 600px;
+        background-image: url(background.png);
+      }
+    </style>
+
+    <div class="background">
+    
+    <nav>
+
+      <div class="menu">
+        <a href="javascript:void(0);" class="icon" onclick="meny()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <div id="myLinks">
+          <a href="#" onclick="undermeny1()">About us</a>
+          <a href="#" id="Link1" class="link">We are a frontend development company</a>
+          <a href="#" onclick="undermeny2()">Contact</a>
+          <a href="#" id="Link2" class="link">Number: 000 000 00 00</a>
+          <a href="#" onclick="undermeny3()">Address</a>
+          <a href="#" id="Link3" class="link">Stockholm city</a>
+        </div>
+      </div>
+
+      <input type="search" width="400px" height="20px" id="searchbar">
+      <img src="search-icon.png" class="searchbar" width="35px" height="35" onclick="bar()">
+
+    </nav>
+
+    <div class="info-box">
+      <div class="info">
+        <h1>Experts in co-creation</h1>
+        <p>At this company we devolpe websites</p>
+        <button id="btn">Read more</button>
+      </div>
+    </div>
+
+    </div>
+
+<div class="cards">
+  <div>
+    <img src="css.png " width="110" height="auto">
+    <p>The structure of the website</p>
+    <button>Read more</button>
+  </div>
+  <div>
+    <img src="css.png" width="110" height="auto">
+    <p>The style of the website</p>
+    <button>Read more</button>
+  </div>
+  <div>
+    <img src="css.png" width="110" height="auto">
+    <p>Functions on the website</p>
+    <button>Read more</button>
+  </div>
+</div>
+    
+  </body>
+</html>

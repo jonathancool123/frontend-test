@@ -1,0 +1,42 @@
+@media screen and (max-width: 615px) {
+    .cards {
+      display: flex;
+      align-items: center;
+    }
+
+    .info {
+      margin-top: 325px;
+      width: 100%;
+      border-radius: 0;
+    }
+
+    input {
+      width: 220px;
+      margin-top: 25px;
+      margin-left: auto;
+      margin-right: 10px;
+    }
+
+    nav {
+      display: flex;
+      align-items: flex-start;
+    }
+
+    .menu a.icon {
+      margin-top: 12.5px;
+    }
+
+    nav .searchbar {
+      margin-top: 20px;
+    }
+
+    .menu #myLinks {
+      margin-top: 75px;
+    }
+  }
+
+  @media screen and (max-width: 290px) {
+    input {
+      width: 100px;
+    }
+  }

@@ -1,0 +1,27 @@
+//change all buttons color
+
+$changeColor: rgb(117, 205, 159);
+
+#btn {
+    background-color: $changeColor;
+}
+
+.cards button {
+    background-color: $changeColor;
+}
+
+//change color of navbar
+
+$changeColorNavbar: rgba(0, 0, 0, 0.75);
+
+nav {
+    background-color: $changeColorNavbar;
+}
+
+.menu #myLinks {
+    background-color: $changeColorNavbar;
+}
+
+#myLinks p {
+    background-color: $changeColorNavbar;
+}
